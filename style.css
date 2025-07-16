@@ -30,6 +30,16 @@
     border: none;
     border-radius: 8px;
 }
+
+
+main{
+    max-width: 1440;
+    margin: 0px auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
 /* nav releted style */
 .brand{
     font-weight: 700;
@@ -52,7 +62,7 @@
 }
 
 .nav-bar, .bannar{
-    max-width: 1440px;
+    max-width: 1920px;
     margin: 0px auto;
 }
 
@@ -72,8 +82,24 @@
 
 .banner-image{
     width: 100%;
+    
 }
 
+/* team and fetures related style */
+.teams{
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px;){
